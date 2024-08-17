@@ -3,7 +3,7 @@
 
 ***Disclaimer:***
 
-***This project on Automated Detection and Classification of Exoplanets Using Deep Learning on Light Curve Data is a research and educational endeavor. The results and insights derived from this project are based on the specific dataset used, model architecture, and training process, and may not be universally applicable to all exoplanet detection scenarios. Users and researchers are encouraged to consider the following limitations and to validate the findings independently before applying them in critical or real-world scenarios.***
+This project on Automated Detection and Classification of Exoplanets Using Deep Learning on Light Curve Data is a research and educational endeavor. The results and insights derived from this project are based on the specific dataset used, model architecture, and training process, **and may not be universally applicable to all exoplanet detection scenarios**. Users and researchers are encouraged to consider the following limitations and to validate the findings independently before applying them in critical or real-world scenarios.
 
 ***Limitations:***
 
