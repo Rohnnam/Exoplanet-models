@@ -25,10 +25,10 @@ def load_and_preprocess_data(file_path, flux_col, sequence_length=100):
 
 # Load datasets
 sequence_length = 100
-tres_flux = load_and_preprocess_data(r"C:\Users\rohan\Downloads\TrES_2024.08.17_00.58.37.csv", 'rmag', sequence_length)
-cluster_flux = load_and_preprocess_data(r"C:\Users\rohan\Downloads\Cluster_2024.08.17_00.58.25.csv", 'rmag', sequence_length)
-xo_flux = load_and_preprocess_data(r"C:\Users\rohan\Downloads\XO_2024.08.17_00.59.33.csv", 'jmag', sequence_length)
-kelt_flux = load_and_preprocess_data(r"C:\Users\rohan\Downloads\KELTP_2024.08.17_00.58.08.csv", 'rmag', sequence_length)
+tres_flux = load_and_preprocess_data('TrES_2024.08.17_00.58.37.csv', 'rmag', sequence_length)
+cluster_flux = load_and_preprocess_data('Cluster_2024.08.17_00.58.25.csv', 'rmag', sequence_length)
+xo_flux = load_and_preprocess_data('XO_2024.08.17_00.59.33.csv', 'jmag', sequence_length)
+kelt_flux = load_and_preprocess_data('KELTP_2024.08.17_00.58.08.csv', 'rmag', sequence_length)
 
 # Print information about the loaded data
 print(f"TrES samples: {tres_flux.shape[0]}")
