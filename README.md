@@ -38,3 +38,4 @@ The model's effectiveness is dependent on the quality and consistency of the pre
  - scikit-learn
  - tensorflow
  - matplotlib
+ - keras
