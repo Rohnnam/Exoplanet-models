@@ -1,38 +1,41 @@
-# Exoplanet Detection on light curve Model
+# Exoplanet Detection Model
 
-## Overview
-This project involves building a machine learning model to detect exoplanets using light curve data. The model leverages LSTM (Long Short-Term Memory) networks to analyze time-series data and classify samples as either positive (exoplanet present) or negative (exoplanet absent).
+This project implements a machine learning model to detect exoplanets using a dataset of astronomical observations. The model is built using LSTM (Long Short-Term Memory) networks, which are particularly effective for sequential data.
 
-## Project Details
+## Project Overview
+
+The model is trained on a dataset containing a total of **56,461 samples**, with **27,994 positive samples** (exoplanets) and **28,467 negative samples** (non-exoplanets). The goal is to accurately classify these samples based on their features.
+
+### Model Performance
+
+- **Training Accuracy**: 99.24%
+- **Validation Accuracy**: 99.65%
+- **Test Accuracy**: 99.68%
+- **Precision**: 99.98%
+- **Recall**: 99.37%
 - **Total Samples**: 56,461
 - **Positive Samples**: 27,994
 - **Negative Samples**: 28,467
-- **Training Epochs**: 50
-- **Final Test Accuracy**: 99.68%
-- **Test Loss**: 0.0338
-- **Precision**: 99.98%
-- **Recall**: 99.37%
+
+### Learning Curves
+
+![Model Accuracy and Loss](Exoplanet_latest.png)
+
+### Light Curve Visualization
+
+![Light Curve Around Exoplanet](Exoplanet_graph_balanced.png)
 
 ## Dependencies
-- Python 3.x
-- Pandas
-- NumPy
-- Scikit-learn
-- TensorFlow
-- Keras
-- Matplotlib
 
-## How It Works
-1. **Data Loading**: The datasets are loaded in parallel using `ProcessPoolExecutor` to improve efficiency.
-2. **Preprocessing**: Missing values are imputed, and features are scaled using `StandardScaler`.
-3. **Model Architecture**: The model consists of two LSTM layers with dropout and batch normalization to prevent overfitting.
-4. **Training**: The model is trained using a balanced class weight strategy to handle class imbalance.
-5. **Evaluation**: The model's performance is evaluated on a separate test set, and metrics such as accuracy, precision, and recall are reported.
+To run this project, you need the following Python packages:
 
-## Usage
-1. Clone the repository.
-2. Install the required dependencies.
-3. Run the main script to train the model and visualize the results.
+- `pandas`
+- `numpy`
+- `scikit-learn`
+- `tensorflow`
+- `keras`
+- `matplotlib`
+- `concurrent.futures`
 
 ***Disclaimer:***
 
