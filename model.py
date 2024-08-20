@@ -198,7 +198,7 @@ def main():
 
     shadow_circle = plt.Circle(exoplanet_position, 0.1, color='black', alpha=0.3)
     plt.gca().add_artist(shadow_circle)
-    
+
     plt.xlim(-2, 2)
     plt.ylim(-2, 2)
     plt.axhline(0, color='white', lw=0.5, ls='--', alpha=0.3)
@@ -222,3 +222,4 @@ def main():
 if __name__ == '__main__':
     freeze_support()
     main()
+
