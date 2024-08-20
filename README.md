@@ -38,8 +38,7 @@ To run this project, you need the following Python packages:
 - `concurrent.futures`
 
 ***Disclaimer:***
-
-This project on Automated Detection and Classification of Exoplanets Using Deep Learning on Light Curve Data is a research and educational endeavor. The results and insights derived from this project are based on the specific dataset used, model architecture, and training process, and may not be universally applicable to all exoplanet detection scenarios. Users and researchers are encouraged to consider the following limitations and to validate the findings independently before applying them in critical or real-world scenarios.
+The exoplanet detection model presented in this project is intended for educational and research purposes. While the model demonstrates high accuracy and performance metrics, it is essential to understand that the results may not be applicable to all datasets or real-world scenarios. Users are encouraged to validate the model's performance on their specific datasets before deploying it for practical applications.
 
 ***Limitations:***
 
@@ -54,9 +53,6 @@ The model assumes that light curves can be accurately interpreted by a deep lear
 
 **Limited Feature Scope:**<br>
 The model focuses on a predefined set of features extracted from light curves. Additional factors, such as stellar activity, orbital mechanics, or multi-planet systems, are not explicitly modeled and could affect the detection and classification outcomes.
-
-**Computational Constraints**:<br>
-Deep learning models are computationally intensive, and the quality of results may depend on the computational resources available. Limited computational power could lead to suboptimal training, affecting the model's performance.
 
 **Generalization to New Data:**<br>
 While the model may perform well on the dataset it was trained on, its ability to generalize to new, unseen data (especially from different stellar environments or instruments) is not guaranteed. Users should exercise caution when applying the model to data outside the scope of the training set.
