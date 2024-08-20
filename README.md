@@ -1,5 +1,38 @@
-# Automated-Detection-and-Classification-of-Exoplanets-Using-Deep-Learning-on-Light-Curve-Data
+# Exoplanet Detection on light curve Model
 
+## Overview
+This project involves building a machine learning model to detect exoplanets using light curve data. The model leverages LSTM (Long Short-Term Memory) networks to analyze time-series data and classify samples as either positive (exoplanet present) or negative (exoplanet absent).
+
+## Project Details
+- **Total Samples**: 56,461
+- **Positive Samples**: 27,994
+- **Negative Samples**: 28,467
+- **Training Epochs**: 50
+- **Final Test Accuracy**: 99.68%
+- **Test Loss**: 0.0338
+- **Precision**: 99.98%
+- **Recall**: 99.37%
+
+## Dependencies
+- Python 3.x
+- Pandas
+- NumPy
+- Scikit-learn
+- TensorFlow
+- Keras
+- Matplotlib
+
+## How It Works
+1. **Data Loading**: The datasets are loaded in parallel using `ProcessPoolExecutor` to improve efficiency.
+2. **Preprocessing**: Missing values are imputed, and features are scaled using `StandardScaler`.
+3. **Model Architecture**: The model consists of two LSTM layers with dropout and batch normalization to prevent overfitting.
+4. **Training**: The model is trained using a balanced class weight strategy to handle class imbalance.
+5. **Evaluation**: The model's performance is evaluated on a separate test set, and metrics such as accuracy, precision, and recall are reported.
+
+## Usage
+1. Clone the repository.
+2. Install the required dependencies.
+3. Run the main script to train the model and visualize the results.
 
 ***Disclaimer:***
 
@@ -31,11 +64,9 @@ The interpretation of results produced by deep learning models should be conduct
 **Dependence on Preprocessing Steps:**<br>
 The model's effectiveness is dependent on the quality and consistency of the preprocessing steps applied to the light curve data. Any deviation in these steps could impact the model's ability to accurately detect and classify exoplanets.
 
+```bash
+git clone https://github.com/yourusername/exoplanet-detection.git
+cd exoplanet-detection
+pip install -r requirements.txt
+python main.py
 
-**Dependencies:**
- - pandas
- - numoy
- - scikit-learn
- - tensorflow
- - matplotlib
- - keras
