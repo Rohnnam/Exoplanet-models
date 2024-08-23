@@ -71,7 +71,7 @@ The model's effectiveness is dependent on the quality and consistency of the pre
 
 ```bash
 git clone https://github.com/Rohnnam/Exoplanets-Classification_model.git
-cd exoplanet-detection
+cd Exoplanets-Classification_model
 pip install -r requirements.txt
 python main.py
 
