@@ -18,7 +18,7 @@ The model is trained on a dataset containing a total of **56,461 samples**, with
 - **Negative Samples**: 28,467
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
 
 
 ### Learning Curves
