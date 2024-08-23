@@ -17,6 +17,10 @@ The model is trained on a dataset containing a total of **56,461 samples**, with
 - **Positive Samples**: 27,994
 - **Negative Samples**: 28,467
 
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+
 ### Learning Curves
 
 ![Model Accuracy and Loss](Exoplanet_latest.png)
