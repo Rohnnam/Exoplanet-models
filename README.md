@@ -26,6 +26,9 @@ This project is licensed under the [MIT License](LICENSE.md).
 
 ![Light Curve Around Exoplanet](Exoplanet_graph_balanced.png)
 
+
+These results underscore the model's capability to effectively differentiate between exoplanets and other astrophysical objects, even amidst the complexities of stellar environments and the inherent noise present in astronomical data. The training process incorporates techniques such as Principal Component Analysis (PCA) for dimensionality reduction, ensuring that the model can efficiently handle the high-dimensional feature space typical of light curve data. Utilizing data from notable space missions like Kepler and TESS, this model not only enhances the accuracy of exoplanet detection but also contributes to the broader field of astrophysics by providing insights into planetary formation and the potential for habitable worlds. By employing advanced regularization techniques and class balancing strategies, the model is designed to mitigate overfitting and improve generalization to unseen data, thereby advancing our understanding of diverse planetary systems and their characteristics.
+
 ## Dependencies
 
 To run this project, you need the following Python packages:
@@ -37,8 +40,6 @@ To run this project, you need the following Python packages:
 - `keras`
 - `matplotlib`
 - `concurrent.futures`
-
-These results underscore the model's capability to effectively differentiate between exoplanets and other astrophysical objects, even amidst the complexities of stellar environments and the inherent noise present in astronomical data. The training process incorporates techniques such as Principal Component Analysis (PCA) for dimensionality reduction, ensuring that the model can efficiently handle the high-dimensional feature space typical of light curve data. Utilizing data from notable space missions like Kepler and TESS, this model not only enhances the accuracy of exoplanet detection but also contributes to the broader field of astrophysics by providing insights into planetary formation and the potential for habitable worlds. By employing advanced regularization techniques and class balancing strategies, the model is designed to mitigate overfitting and improve generalization to unseen data, thereby advancing our understanding of diverse planetary systems and their characteristics.
 
 ***Disclaimer:***
 The exoplanet detection model presented in this project is intended for educational and research purposes. While the model demonstrates high accuracy and performance metrics, it is essential to understand that the results may not be applicable to all datasets or real-world scenarios. Users are encouraged to validate the model's performance on their specific datasets before deploying it for practical applications.
