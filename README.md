@@ -106,8 +106,8 @@ The interpretation of results produced by deep learning models should be conduct
 The model's effectiveness is dependent on the quality and consistency of the preprocessing steps applied to the light curve data. Any deviation in these steps could impact the model's ability to accurately detect and classify exoplanets.
 
 ```bash
-git clone https://github.com/Rohnnam/Exoplanets-Classification_model.git
-cd Exoplanets-Classification_model
+git clone https://github.com/Rohnnam/Exoplanet-models.git
+cd Exoplanet-models
 pip install -r requirements.txt
 python main.py
 
