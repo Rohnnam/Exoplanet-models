@@ -50,7 +50,7 @@ This project is licensed under the [MIT License](LICENSE.md).
 
 ## Exoplanet Habitability Visualization
 A scatter plot of planetary equilibrium temperature vs. planetary radius, delineating the potential habitable zone.
-![TempVRadii](Habitability_graph.png)
+![TempVRadii](revised_radvtemp.png)
    
 ## Star Mass vs. Planet Mass
 Illustrating the relationship between stellar and planetary masses, crucial for understanding planetary formation and evolution.
@@ -58,7 +58,7 @@ Illustrating the relationship between stellar and planetary masses, crucial for 
 
 ## Orbital Period vs. Star Temperature
 Visualizing the distribution of planets in relation to their host stars' characteristics, helping to identify potential "Goldilocks zones."
-![TperiodVTemp](temp_compare.png)
+![TperiodVTemp](revisedtimeVtemp.png)
 
 
 These results underscore the model's capability to effectively differentiate between exoplanets and other astrophysical objects, even amidst the complexities of stellar environments and the inherent noise present in astronomical data. The training process incorporates techniques such as Principal Component Analysis (PCA) for dimensionality reduction, ensuring that the model can efficiently handle the high-dimensional feature space typical of light curve data.<br>
