@@ -61,7 +61,11 @@ Illustrating the relationship between planet density and the count of habitable 
 Visualizing the distribution of planets in relation to their host stars' characteristics, helping to identify potential "Goldilocks zones."
 ![TperiodVTemp](operiodvsstarttemp.png)
 
+The scatter plot of star mass versus planet mass reveals that there are currently no habitable planets identified within the observed mass ranges. This absence indicates a potential gap in our understanding of how star mass influences the characteristics of orbiting planets, particularly in terms of their ability to support life. <br>
 
+The planet density distribution reveals that habitable exoplanets exhibit a steep decline in count from a density of approximately -5.278 g/cm³, where the count peaks at around 739, to densities exceeding 6.125 x 10⁷ g/cm³, where the count drops to zero. In contrast, non-habitable exoplanets show a gradual decrease in count, starting from 248 at a density of -5.26 g/cm³ and tapering off to zero at a density of 1.80 x 10⁹ g/cm³. This distribution highlights the varying compositions of exoplanets and their correlation with habitability, emphasizing the need for further exploration of density as a critical factor in assessing the potential for life beyond Earth. <br>
+
+The analysis of orbital period vs star temp relationship reveals that habitable exoplanets are found within a narrow temperature range of -2.50 to 2.50 Kelvin and an equally restricted orbital period range of -0.006232 to 0.0 days. This highlights the extreme conditions under which these planets orbit their stars, suggesting a unique set of circumstances that govern their potential for habitability.  <br>
 
 These results underscore the model's capability to effectively differentiate between exoplanets and other astrophysical objects, even amidst the complexities of stellar environments and the inherent noise present in astronomical data. The training process incorporates techniques such as Principal Component Analysis (PCA) for dimensionality reduction, ensuring that the model can efficiently handle the high-dimensional feature space typical of light curve data.<br>
 
