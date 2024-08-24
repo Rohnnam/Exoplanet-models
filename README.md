@@ -76,6 +76,8 @@ To run this project, you need the following Python packages:
 - `keras`
 - `matplotlib`
 - `concurrent.futures`
+- [Exoplanet Archive Table View](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS)
+
 
 ***Disclaimer:***
 The exoplanet detection model presented in this project is intended for educational and research purposes. While the model demonstrates high accuracy and performance metrics, it is essential to understand that the results may not be applicable to all datasets or real-world scenarios. Users are encouraged to validate the model's performance on their specific datasets before deploying it for practical applications.
