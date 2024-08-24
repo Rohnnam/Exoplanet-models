@@ -30,7 +30,7 @@ Our habitability classification model employs a hybrid Convolutional Neural Netw
 - **Recall**: 99.37%
 - **Total Samples Trained**: 56,461
 
-  **Exoplanet_habitability_model**
+**Exoplanet_habitability_model**
 - **Training Accuracy**: 81.0%
 - **Validation Accuracy**: 80.0%
 - **Test Accuracy**: 81.50%
