@@ -63,7 +63,7 @@ def augment_data(X, Y, target_size):
     return X_augmented, Y_augmented
 
 # Load and preprocess PS dataset
-ps_df = pd.read_csv(r"C:\Users\rohan\Documents\VScode\space_model\PS_2024.08.24_01.52.09.csv")
+ps_df = pd.read_csv("PS_2024.08.24_01.52.09.csv")
 ps_cleaned = preprocess_ps_data(ps_df)
 
 # Features and target variable for PS dataset
