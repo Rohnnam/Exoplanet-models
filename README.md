@@ -31,7 +31,7 @@ The model is trained on a comprehensive dataset comprising __56,461__ light curv
 
 ### Learning Curves
 
-![Model Accuracy and Loss](Exoplanet_latest.png)
+![Model Accuracy and Loss](Exoplanet_detection_model/Exoplanet_latest.png)
 
 
 These metrics demonstrate the model's robust capability to discriminate between genuine planetary transits and false positives, even in the presence of complex stellar variability and instrumental artifacts.
@@ -62,22 +62,22 @@ Building upon our transit detection capabilities, I've developed a hybrid Convol
 ## Visualizations
 
 ### Transit Light Curve Analysis
-![Light Curve Around Exoplanet](Exoplanet_graph_balanced.png)
+![Light Curve Around Exoplanet](Exoplanet_detection_model/Exoplanet_graph_balanced.png)
 
 This figure illustrates a typical exoplanetary transit light curve, showcasing the characteristic dip in stellar flux as the planet occults its host star.
 
 ### Planetary System Characteristics
-![Star Mass vs Planet Mass](starmassvsplanetmass.png)
+![Star Mass vs Planet Mass](Habitability_model/starmassvsplanetmass.png)
 
 This scatter plot reveals the relationship between stellar and planetary masses, providing insights into planetary formation processes and system architectures.
 
 ### Exoplanet Density Distribution
-![Planet Density Distribution](planetdensity.png)
+![Planet Density Distribution](Habitability_model/planetdensity.png)
 
 The density distribution of exoplanets offers crucial information about planetary composition and internal structure, key factors in assessing habitability.
 
 ### Orbital Dynamics and Stellar Properties
-![Orbital Period vs Star Temperature](operiodvsstarttemp.png)
+![Orbital Period vs Star Temperature](Habitability_model/operiodvsstarttemp.png)
 
 This visualization explores the correlation between orbital periods and host star temperatures, helping to identify potential habitable zones within diverse stellar environments.
 
