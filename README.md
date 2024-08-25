@@ -151,5 +151,4 @@ Users are encouraged to carefully consider these limitations, validate the model
 git clone https://github.com/Rohnnam/Exoplanetary-Dynamics-Simulator.git
 cd Exoplanetary-Dynamics-Simulator
 pip install -r requirements.txt
-python main.py
 
