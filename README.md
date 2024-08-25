@@ -148,8 +148,8 @@ The exoplanet detection and habitability classification models presented in this
 Users are encouraged to carefully consider these limitations, validate the models' performance on their specific datasets, and interpret results in the context of current astrophysical knowledge. For production or mission-critical applications, additional verification and expert consultation are strongly recommended.
 
 ```bash
-git clone https://github.com/Rohnnam/Exoplanet-models.git
-cd Exoplanet-models
+git clone https://github.com/Rohnnam/Exoplanetary-Dynamics-Simulator.git
+cd Exoplanetary-Dynamics-Simulator
 pip install -r requirements.txt
 python main.py
 
